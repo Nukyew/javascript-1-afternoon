@@ -180,8 +180,8 @@ var age = 27;
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-var age = 28;
+age++
 
 // Good news! We can live forever. Set your age to 999
 
-var age = 999;
+age = 999
