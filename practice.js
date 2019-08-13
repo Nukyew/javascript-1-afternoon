@@ -26,7 +26,7 @@ let greatestFear = undefined;
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+let devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,14 +35,22 @@ let greatestFear = undefined;
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name) {
+  return "Hello, " + name;
+}
+
+greeting("Trogdor");
 
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+var newGreeting = function(name) {
+  return "Hello, " + name;
+}
+
+newGreeting("Trogdor")
 
 //////////////////PROBLEM 8////////////////////
 
